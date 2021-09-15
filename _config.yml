@@ -1,0 +1,22 @@
+remote_theme: coursweb/jk-theme
+title: Cours CSS Grid Layout
+description: Module de cours sur le module CSS Grid Layout.
+lang: fr-FR
+chapters:
+ - title: Cours-web
+   url: https://cours-web.ch/
+ - title: HTML
+   url: https://cours-web.ch/html/
+ - title: CSS
+   url: https://cours-web.ch/css/
+ - title: CSS Grid
+   url: https://cours-web.ch/css-grid/
+ - title: JavaScript
+   url: https://cours-web.ch/javascript/
+
+   # Footer content
+# Content is split in three columns.   
+footer_col_1: <ul class="contact-list">
+  <li>Eracom, Lausanne</li>
+  <li>2017–2021</li></ul>
+footer_col_2: <ul class="social-media-list"><li><a href="https://github.com/coursweb/css-grid">Lien Github</a></li></ul>
