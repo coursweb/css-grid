@@ -6,40 +6,53 @@ permalink: fonctions.html
 
 Le module Grid Layout permet d'utiliser des fonctions CSS pour faciliter la création de grilles responsives:
 
-- repeat() : pour éviter de devoir se répéter dans le code.
-- auto-fit
-- minmax()
+- `repeat()` : pour éviter de devoir se répéter dans le code.
+- `auto-fit`
+- `minmax()`
 
 ## La fonction repeat()
 
 Au lieu de répéter les unités des colonnes, on peut faire usage de cette fonction. Ainsi, ce code:
 
 ```css
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+.container {
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
 ```
 
 est équivalent à ceci :
 
 ```css
-grid-template-columns: repeat(6, 1fr);
+.container {
+  grid-template-columns: repeat(6, 1fr);
+}
 ```
 
 La première valeur donne le nombre de colonnes à créer, la deuxième la largeur.
+
+## auto-fit et auto-fill
 
 Il y a encore mieux: on peut décider que le nombre de colonnes s'adapte selon la largeur de l'écran. Au lieu d'indiquer un chiffre, on utilisera le mot-clé `auto-fit` (ou `auto-fill`).
 
 Exemple:
 
 ```css
-grid-template-columns: repeat(auto-fit, 250px);
+.container {
+  grid-template-columns: repeat(auto-fit, 250px);
+}
 ```
 
 Voir sur Codepen: [https://codepen.io/eracom/pen/yLXjxbP?editors=1100](https://codepen.io/eracom/pen/yLXjxbP?editors=1100)
 
+
+## Tailles flexibles avec minmax()
+
 C'est pas mal... mais il y a encore mieux: on peut rendre la largeur des boîtes flexible avec minmax()! On définit un minimum et un maximum.
 
 ```css
-grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+.container {
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
 ```
 
 <p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="OJgZozR" data-editable="true" data-user="eracom" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
@@ -55,6 +68,8 @@ Dernière astuce: on peut demander à l'algorithme de placement automatique d'ut
 Il faut ajouter cette déclaration sur le conteneur:
 
 ```css
-grid-auto-flow : dense;
+.container {
+  grid-auto-flow : dense;
+}
 ```
 
