@@ -47,7 +47,7 @@ Voir sur Codepen: [https://codepen.io/eracom/pen/yLXjxbP?editors=1100](https://c
 
 ## Tailles flexibles avec minmax()
 
-C'est pas mal... mais il y a encore mieux: on peut rendre la largeur des boîtes flexible avec minmax()! On définit un minimum et un maximum.
+C'est pas mal... mais il y a encore mieux: on peut rendre la largeur des boîtes flexible avec `minmax()`. On définit un minimum et un maximum.
 
 ```css
 .container {
@@ -73,3 +73,4 @@ Il faut ajouter cette déclaration sur le conteneur:
 }
 ```
 
+Voilà! Avec cette technique, vous pouvez définir des grilles de qui s'adapteront de manière très flexible à l'espace disponible.
