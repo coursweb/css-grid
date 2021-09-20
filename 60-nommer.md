@@ -8,9 +8,9 @@ permalink: nommer.html
 
 On a utilisé jusqu'ici les numéros des lignes pour placer des éléments. CSS Grid permet aussi d'attribuer des noms aux lignes et zones de la grille.
 
-### Nommer les zones (zones nommées)
+### Nommer les zones
 
-Il est possible d'assigner des noms à des zones de la grille. Cela facilite le placement des éléments. Les noms et emplacements des zones sont définis par la propriété "grid-template-areas". Exemple:
+Il est possible d'assigner des noms à des zones de la grille. Cela facilite le placement des éléments. Les noms et emplacements des zones sont définis par la propriété `grid-template-areas`. Exemple:
 
 ```css
 .container {
@@ -39,9 +39,11 @@ Exemple:
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 
+---
+
 Plus de détails dans la [documentation MDN](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout/Grid_Template_Areas)
 
-### Nommer les zones (zones nommées)
+### Nommer les lignes
 
 Il est également possible de nommer les "Grid Lines". Cela permet de les désigner autrement que par des numéros. On peut les nommer p.ex.  "content-start", "content-end".
 
@@ -54,6 +56,15 @@ La syntaxe pour nommer les Grid Lines:
 ```
 
 Comme on le voit, on les définit en même temps que les colonnes.
+
+On peut ensuite placer les éléments en se référant à ces noms de lignes:
+
+```css
+.box4 {
+  grid-column-start: center-start;
+  grid-column-end: center-end;
+}
+```
 
 - Article sur MDN: [Utiliser des lignes nommées](https://developer.mozilla.org/fr/docs/Web/CSS/CSS_Grid_Layout/Layout_using_Named_Grid_Lines)
 - Un article [explique cela en détail](https://mastery.games/post/naming-css-grid-lines/).
