@@ -63,7 +63,7 @@ C'est pas mal... mais il y a encore mieux: on peut rendre la largeur des boîtes
 
 ## grid-auto-flow : dense
 
-Dernière astuce: on peut demander à l'algorithme de placement automatique d'utiliser une méthode de « regroupement dense » où il essaie de remplir les trous dans la grille si des éléments plus petits arrivent ensuite. 
+Dernière astuce: on peut demander à l'algorithme de placement automatique d'utiliser une méthode de « regroupement dense » où il essaie de remplir les trous dans la grille, en changeant l'ordre des éléments si nécessaire. 
 
 Il faut ajouter cette déclaration sur le conteneur:
 
