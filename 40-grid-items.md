@@ -36,4 +36,3 @@ section {
   Goetter exemple No01</a> by Manuel Schmalstieg (<a href="https://codepen.io/eracom">@eracom</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
