@@ -16,7 +16,7 @@ Voici comment déclarer une grille CSS:
 
 Avec la propriété `display: grid`, on définit le conteneur. Pour que la grille fonctionne visuellement, il faut aussi spécifier les colonnes et rangées.
 
-### Déclarations des colonnes et rangées
+### Déclaration des colonnes et rangées
 
 Les trois propriétés suivantes permettent différentes manières de définir des colonnes ou rangées:
 
