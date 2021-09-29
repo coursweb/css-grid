@@ -7,8 +7,8 @@ permalink: fonctions.html
 Le module Grid Layout permet d'utiliser des fonctions CSS pour faciliter la création de grilles responsives:
 
 - `repeat()` : pour éviter de devoir se répéter dans le code.
-- `auto-fit`
-- `minmax()`
+- `auto-fit` : pour ne pas spécifier le nombre de rangées ou colonnes, qui s'adaptera selon les contenus.
+- `minmax()` : unité de mesure souple, permet de définir un minimum et maximum.
 
 ## La fonction repeat()
 
