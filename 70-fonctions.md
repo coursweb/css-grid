@@ -73,4 +73,4 @@ Il faut ajouter cette déclaration sur le conteneur:
 }
 ```
 
-Voilà! Avec cette technique, vous pouvez définir des grilles de qui s'adapteront de manière très flexible à l'espace disponible.
+Voilà! Avec cette technique, vous pouvez définir des grilles qui s'adapteront de manière très flexible à l'espace disponible.
