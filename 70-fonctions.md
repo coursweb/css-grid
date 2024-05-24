@@ -74,3 +74,15 @@ Il faut ajouter cette déclaration sur le conteneur:
 ```
 
 Voilà! Avec cette technique, vous pouvez définir des grilles qui s'adapteront de manière très flexible à l'espace disponible.
+
+## Exercice
+
+Produire une grille d'images, avec les nouvelles fonctionnalités – `repeat`, `auto-fit`, `minmax`. L'objectif est de créer une grille avec des images en format horizontal et vertical, avec aussi peu de lignes CSS que possible.
+
+Voici un début de code HTML, qu'il s'agit de transformer en grille:
+
+<p class="codepen" data-height="300" data-default-tab="css,result" data-slug-hash="JjJZGYB" data-editable="true" data-user="eracom" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/eracom/pen/JjJZGYB">
+  Grid Gallery</a> by Manuel Schmalstieg (<a href="https://codepen.io/eracom">@eracom</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
