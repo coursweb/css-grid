@@ -6,6 +6,10 @@ permalink: quiz.html
 
 Questions d'auto-évaluation sur Grid Layout.
 
+Vous trouvez ces questions [aussi dans Kahoot](https://create.kahoot.it/share/css-grid-layout/b1c6a087-6893-4d4e-82bd-16c69ffd9655).
+
+---
+
 **1. Quelle propriété permet de déclarer des colonnes avec CSS Grid ?**
 
 - [ ] columns
